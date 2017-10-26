@@ -1,0 +1,5 @@
+const GET_PORTFOLIO_PIECE = './duck/GET_PORTFOLIO_PIECE';
+
+export default {
+	GET_PORTFOLIO_PIECE
+};
