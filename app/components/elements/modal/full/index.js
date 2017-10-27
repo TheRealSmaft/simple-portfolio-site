@@ -6,16 +6,22 @@ import { portfolioActions } from '../../../../store/portfolio';
 
 class FullModal extends React.Component {
 	componentWillMount() {
-		this.props.getPortfolioPiece(this.props.match.params.piece)
+		this.props.getPortfolioPiece(this.props.match.params.piece);
+	}
+
+	componentWillUpdate(nextProps) {
+		if(this.props.match.params.piece != nextProps.match.params.piece) {
+			this.props.getPortfolioPiece(nextProps.match.params.piece);
+		}
 	}
 
 	generatePieceModal() {
-		let p = this.props.portfolio.piece;
+		let p = this.props.piece;
 
 		return (
 			<div>
 				<h1>
-					{p.name}
+					{p.description}
 				</h1>
 			</div>
 		)
@@ -24,7 +30,7 @@ class FullModal extends React.Component {
 	render() {
 		return (
 			<div>
-				{this.props.portfolio.piece ? this.generatePieceModal() : ''}
+				{this.props.piece ? this.generatePieceModal() : ''}
 			</div>
 		)
 	}
@@ -32,7 +38,8 @@ class FullModal extends React.Component {
 
 function mapStateToProps(store) {
 	return {
-		portfolio: store.portfolio
+		portfolio: store.portfolio.portfolio,
+		piece: store.portfolio.piece
 	}
 }
 

@@ -10,7 +10,6 @@ const portfolio = [
 		],
 		image: 'AGTTapes/AGTTapesThumbnail.png',
 		siteUrl: 'http://www.agttapes.com/home',
-		vandalized: 'AGTTapes/AGTTapesVandalism.svg'
 	},
 	{
 		name: 'Piano Competition Poster',
@@ -22,7 +21,6 @@ const portfolio = [
 		],
 		image: 'PianoPoster/PianoPosterThumbnail.png',
 		largeImage: 'PianoPoster/PianoPosterLarge.jpg',
-		vandalized: 'PianoPoster/PianoPosterVandalism.svg'
 	},
 	{
 		name: 'Elvisaurus Rex and the Carrot from Outer Space',
@@ -35,7 +33,6 @@ const portfolio = [
 			"I created this animation using an adorable bunny, After Effects, Photoshop, Illustrator, and Audition (for the audio recording/editing)."
 		],
 		image: 'ElvisCartoon/ElvisCartoonThumbnail.jpg',
-		vandalized: 'ElvisCartoon/ElvisCartoonVandalism.svg'
 	},
 	{
 		name: 'Sacrilicious Hopnipotent',
@@ -47,7 +44,6 @@ const portfolio = [
 		],
 		image: 'Hopnipotent/HopnipotentThumbnail.png',
 		largeImage: 'Hopnipotent/HopnipotentLabelLarge.png',
-		vandalized: 'Hopnipotent/HopnipotentVandalism.svg'
 	},
 	{
 		name: 'Flambé',
@@ -59,7 +55,6 @@ const portfolio = [
 		],
 		image: 'Flambe/FlambeThumbnail.png',
 		largeImages: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
-		vandalized: 'Flambe/FlambeVandalism.svg'
 	},
 	{
 		name: 'Batavia Main Street Events Poster',
@@ -70,7 +65,6 @@ const portfolio = [
 		],
 		image: 'BataviaPoster/BataviaPosterThumbnail.png',
 		largeImage: 'BataviaPoster/BataviaPosterLarge.png',
-		vandalized: 'BataviaPoster/BataviaPosterVandalism.svg'
 	},
 	{
 		name: 'Skull and Fishbowl Still Life',
@@ -82,7 +76,6 @@ const portfolio = [
 		],
 		image: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
 		largeImage: 'SkullAndBowl/SkullAndBowlLarge.jpg',
-		vandalized: 'SkullAndBowl/SkullAndBowlVandalism.svg'
 	},
 	{
 		name: 'Ladies Night Out Event',
@@ -94,7 +87,6 @@ const portfolio = [
 		],
 		image: 'LadiesNightOut/BLNLogo.jpg',
 		largeImage: 'LadiesNightOut/LNOPostcardLarge.png',
-		vandalized: 'LadiesNightOut/LNOVandalism.svg'
 	},
 	{
 		name: 'Batavia Farmers\'s Market',
@@ -106,7 +98,6 @@ const portfolio = [
 		],
 		image: 'FarmersMarket/BFMLogoThumbnail.png',
 		largeImages: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
-		vandalized: 'FarmersMarket/BFMVandalism.svg'
 	},
 	{
 		name: 'Twisted Roots Game',
@@ -118,7 +109,6 @@ const portfolio = [
 		],
 		image: 'TwistedRoots/TwistedRootsThumbnail.jpg',
 		largeImage: 'TwistedRoots/TwistedRootsLarge.jpg',
-		vandalized: 'TwistedRoots/TwistedRootsVandalism.svg'
 	},
 	{
 		name: 'Carla and I Vector Portrait',
@@ -129,7 +119,6 @@ const portfolio = [
 		],
 		image: 'CarlaAndI/CarlaAndIThumbnail.png',
 		largeImage: 'CarlaAndI/CarlaAndILarge.png',
-		vandalized: 'CarlaAndI/CarlaAndIVandalism.svg'
 	},
 ];
 

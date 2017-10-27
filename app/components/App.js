@@ -6,6 +6,7 @@ import FullModal from './elements/modal/full';
 
 import Main from './Main';
 import Header from './Header';
+import Footer from './Footer';
 
 import styles from '../styles/_global.css';
 
@@ -15,6 +16,7 @@ class App extends React.Component {
 			<div>
 				<Header />
 				<Main />
+				<Footer />
 				<Switch>
 					<Route exact path = "/" component = {EmptyModal} />
 					<Route path = "/:piece" component = {FullModal} />
