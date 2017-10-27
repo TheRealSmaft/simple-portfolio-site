@@ -20,7 +20,7 @@ const portfolio = [
 			"I designed this poster with Photoshop, Illustrator, and InDesign.",
 		],
 		thumb: 'PianoPoster/PianoPosterThumbnail.png',
-		largeImage: 'PianoPoster/PianoPosterLarge.jpg',
+		image: 'PianoPoster/PianoPosterLarge.jpg',
 	},
 	{
 		name: 'Elvisaurus Rex and the Carrot from Outer Space',
@@ -43,7 +43,7 @@ const portfolio = [
 			"I created this beer concept with recreational drinking, Photoshop, Illustrator, and hand drawings.",
 		],
 		thumb: 'Hopnipotent/HopnipotentThumbnail.png',
-		largeImage: 'Hopnipotent/HopnipotentLabelLarge.png',
+		image: 'Hopnipotent/HopnipotentLabelLarge.png',
 	},
 	{
 		name: 'Flambé',
@@ -54,7 +54,7 @@ const portfolio = [
 			"I created this menu design with fire, Photoshop, Illustrator, and InDesign."
 		],
 		thumb: 'Flambe/FlambeThumbnail.png',
-		largeImages: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
+		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
 	},
 	{
 		name: 'Batavia Main Street Events Poster',
@@ -64,7 +64,7 @@ const portfolio = [
 			"I created this poster using Illustrator.",
 		],
 		thumb: 'BataviaPoster/BataviaPosterThumbnail.png',
-		largeImage: 'BataviaPoster/BataviaPosterLarge.png',
+		image: 'BataviaPoster/BataviaPosterLarge.png',
 	},
 	{
 		name: 'Skull and Fishbowl Still Life',
@@ -75,7 +75,7 @@ const portfolio = [
 			"I think..."
 		],
 		thumb: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
-		largeImage: 'SkullAndBowl/SkullAndBowlLarge.jpg',
+		image: 'SkullAndBowl/SkullAndBowlLarge.jpg',
 	},
 	{
 		name: 'Ladies Night Out Event',
@@ -86,7 +86,7 @@ const portfolio = [
 			"I created the Ladies Night Out logo using Illustrator and the postcard with Illustrator and Photoshop."
 		],
 		thumb: 'LadiesNightOut/BLNLogo.jpg',
-		largeImage: 'LadiesNightOut/LNOPostcardLarge.png',
+		image: 'LadiesNightOut/LNOPostcardLarge.png',
 	},
 	{
 		name: 'Batavia Farmers\'s Market',
@@ -97,7 +97,7 @@ const portfolio = [
 			"I created the logo with Illustrator and added distress using Photoshop."
 		],
 		thumb: 'FarmersMarket/BFMLogoThumbnail.png',
-		largeImages: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
+		images: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
 	},
 	{
 		name: 'Twisted Roots Game',
@@ -108,7 +108,7 @@ const portfolio = [
 			"The tree was drawn by hand using charcoal, and the rest was designed in Illustrator, Photoshop, and InDesign.",
 		],
 		thumb: 'TwistedRoots/TwistedRootsThumbnail.jpg',
-		largeImage: 'TwistedRoots/TwistedRootsLarge.jpg',
+		image: 'TwistedRoots/TwistedRootsLarge.jpg',
 	},
 	{
 		name: 'Carla and I Vector Portrait',
@@ -118,7 +118,7 @@ const portfolio = [
 			"I created this with Illustrator, elbow grease, and gumption."
 		],
 		thumb: 'CarlaAndI/CarlaAndIThumbnail.png',
-		largeImage: 'CarlaAndI/CarlaAndILarge.png',
+		image: 'CarlaAndI/CarlaAndILarge.png',
 	},
 ];
 
