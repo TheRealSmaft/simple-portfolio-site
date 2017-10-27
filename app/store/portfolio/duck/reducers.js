@@ -16,8 +16,6 @@ const portfolioReducer = (state = {
 				}
 			}
 
-			console.log(piece)
-
 			state = {
 				...state,
 				piece: piece

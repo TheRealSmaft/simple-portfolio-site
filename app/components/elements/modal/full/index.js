@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { portfolioActions } from '../../../../store/portfolio';
 
+import styles from '../../../../styles/modal.css';
+
 class FullModal extends React.Component {
 	componentWillMount() {
 		this.props.getPortfolioPiece(this.props.match.params.piece);
@@ -29,7 +31,9 @@ class FullModal extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div
+				className = {styles.modal}
+			>
 				{this.props.piece ? this.generatePieceModal() : ''}
 			</div>
 		)

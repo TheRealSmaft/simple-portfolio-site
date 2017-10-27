@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../styles/footer.css';
 
 class Footer extends React.Component {
 	componentWillMount() {
@@ -7,9 +8,11 @@ class Footer extends React.Component {
 
 	render() {
 		return(
-			<div>
+			<footer
+				className = {styles.footer}
+			>
 				&copy; Matthew Brubaker Smith {this.year}
-			</div>
+			</footer>
 		)
 	}
 }

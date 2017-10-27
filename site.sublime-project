@@ -2,6 +2,25 @@
 	"folders":
 	[
 		{
+			"file_exclude_patterns":
+			[
+				"app/styles/_global.css",
+				"app/styles/_global.css.map",
+				"app/styles/bio.css",
+				"app/styles/bio.css.map",
+				"app/styles/footer.css",
+				"app/styles/footer.css.map",
+				"app/styles/gallery.css",
+				"app/styles/gallery.css.map",
+				"app/styles/header.css",
+				"app/styles/header.css.map",
+				"app/styles/modal.css",
+				"app/styles/modal.css.map",
+				"app/styles/media-queries.css",
+				"app/styles/media-queries.css.map",
+				"app/styles/_variables.css",
+				"app/styles/_variables.css.map"
+			],
 			"path": "."
 		}
 	]
