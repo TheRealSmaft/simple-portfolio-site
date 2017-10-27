@@ -8,7 +8,9 @@ class GalleryItem extends React.Component {
 				<Link
 					to = {this.props.piece.url}
 				>
-					{this.props.piece.name}
+					<img 
+						src = {require('../../../../media/portfolio/' + this.props.piece.thumb)}
+					/>
 				</Link>
 			</div>
 		)

@@ -8,7 +8,7 @@ const portfolio = [
 			'I also shot/edited all the photos, as well as created all of the graphics.',
 			'The AGT Tapes website was designed using AngularJS, SASS, PHP, SQL, and Adobe CC.'
 		],
-		image: 'AGTTapes/AGTTapesThumbnail.png',
+		thumb: 'AGTTapes/AGTTapesThumbnail.png',
 		siteUrl: 'http://www.agttapes.com/home',
 	},
 	{
@@ -19,7 +19,7 @@ const portfolio = [
 			"The piano is supposed to appear as though its own music is lifting it in the air.",
 			"I designed this poster with Photoshop, Illustrator, and InDesign.",
 		],
-		image: 'PianoPoster/PianoPosterThumbnail.png',
+		thumb: 'PianoPoster/PianoPosterThumbnail.png',
 		largeImage: 'PianoPoster/PianoPosterLarge.jpg',
 	},
 	{
@@ -32,7 +32,7 @@ const portfolio = [
 			"Rabbits are more food driven than dogs. Seriously, look it up!",
 			"I created this animation using an adorable bunny, After Effects, Photoshop, Illustrator, and Audition (for the audio recording/editing)."
 		],
-		image: 'ElvisCartoon/ElvisCartoonThumbnail.jpg',
+		thumb: 'ElvisCartoon/ElvisCartoonThumbnail.jpg',
 	},
 	{
 		name: 'Sacrilicious Hopnipotent',
@@ -42,7 +42,7 @@ const portfolio = [
 			"My name over \"Brewmaster\" over the label is written in a font I made of my own handwriting.",
 			"I created this beer concept with recreational drinking, Photoshop, Illustrator, and hand drawings.",
 		],
-		image: 'Hopnipotent/HopnipotentThumbnail.png',
+		thumb: 'Hopnipotent/HopnipotentThumbnail.png',
 		largeImage: 'Hopnipotent/HopnipotentLabelLarge.png',
 	},
 	{
@@ -53,7 +53,7 @@ const portfolio = [
 			"The burns around the edges of the menu are real. I thought it would look cooler. It does.",
 			"I created this menu design with fire, Photoshop, Illustrator, and InDesign."
 		],
-		image: 'Flambe/FlambeThumbnail.png',
+		thumb: 'Flambe/FlambeThumbnail.png',
 		largeImages: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
 	},
 	{
@@ -63,7 +63,7 @@ const portfolio = [
 		moreInfo: [
 			"I created this poster using Illustrator.",
 		],
-		image: 'BataviaPoster/BataviaPosterThumbnail.png',
+		thumb: 'BataviaPoster/BataviaPosterThumbnail.png',
 		largeImage: 'BataviaPoster/BataviaPosterLarge.png',
 	},
 	{
@@ -74,7 +74,7 @@ const portfolio = [
 			"The skull was fake.",
 			"I think..."
 		],
-		image: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
+		thumb: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
 		largeImage: 'SkullAndBowl/SkullAndBowlLarge.jpg',
 	},
 	{
@@ -85,7 +85,7 @@ const portfolio = [
 			"I tried to make the hand racially ambiguous.",
 			"I created the Ladies Night Out logo using Illustrator and the postcard with Illustrator and Photoshop."
 		],
-		image: 'LadiesNightOut/BLNLogo.jpg',
+		thumb: 'LadiesNightOut/BLNLogo.jpg',
 		largeImage: 'LadiesNightOut/LNOPostcardLarge.png',
 	},
 	{
@@ -96,7 +96,7 @@ const portfolio = [
 			"One logo was just for the 20th anniversary, the other was for the following years moving forward.",
 			"I created the logo with Illustrator and added distress using Photoshop."
 		],
-		image: 'FarmersMarket/BFMLogoThumbnail.png',
+		thumb: 'FarmersMarket/BFMLogoThumbnail.png',
 		largeImages: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
 	},
 	{
@@ -107,7 +107,7 @@ const portfolio = [
 			"I also created fictitious game design company (and logo) Pumpkin Turtle Games.",
 			"The tree was drawn by hand using charcoal, and the rest was designed in Illustrator, Photoshop, and InDesign.",
 		],
-		image: 'TwistedRoots/TwistedRootsThumbnail.jpg',
+		thumb: 'TwistedRoots/TwistedRootsThumbnail.jpg',
 		largeImage: 'TwistedRoots/TwistedRootsLarge.jpg',
 	},
 	{
@@ -117,7 +117,7 @@ const portfolio = [
 		moreInfo: [
 			"I created this with Illustrator, elbow grease, and gumption."
 		],
-		image: 'CarlaAndI/CarlaAndIThumbnail.png',
+		thumb: 'CarlaAndI/CarlaAndIThumbnail.png',
 		largeImage: 'CarlaAndI/CarlaAndILarge.png',
 	},
 ];
