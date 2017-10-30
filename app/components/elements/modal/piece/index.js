@@ -1,50 +1,97 @@
 import React from 'react';
 
+import Magnifier from '../../magnifier';
+
+import styles from '../../../../styles/modal.css';
+
 class Piece extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			magnifiedImage: null,
+			imagePosition: null,
+			mousePosition: null
+		}
+
+		this.bound_clearMagnify = this.clearMagnify.bind(this);
+	}
+
 	componentWillMount() {
-		this.generateImages(this.props.piece);
+		this.images = this.generateImages(this.props.piece);
+		this.moreInfo = this.generateMoreInfo(this.props.piece);
 	}
 
 	componentWillUpdate(nextProps) {
 		if(this.props.piece != nextProps.piece) {
-			this.generateImages(nextProps.piece);
+			this.images = this.generateImages(nextProps.piece);
+			this.moreInfo = this.generateMoreInfo(nextProps.piece);
+			this.clearMagnify();
 		}
 	}
 
-	generateImages(p) {
-		this.images = [];
-		this.image = null;
+	componentWillUnmount() {
+		this.clearMagnify();
+	}
 
-		if(p.images) 
-		{
-			for(let i = 0; i < p.images.length; i++) {
-				this.images.push(
-					<img
-						key = {i}
-						src = {require('../../../../media/portfolio/' + p.images[i])}
-						alt = {p.name + (i + 1)}
-					/>
-				)
-			}
-		}
-		else if(p.image) 
-		{
-			this.image = (
+	generateImages(p) {
+		let images = [];
+		for(let i = 0; i < p.images.length; i++) {
+			images.push(
 				<img
-					src = {require('../../../../media/portfolio/' + p.image)}
-					alt = {p.name}
+					key = {i}
+					className = {p.outline ? styles.outlined : styles.pieceImage}
+					onClick = {(e) => this.magnify(e, p.images[i])}
+					src = {require('../../../../media/portfolio/' + p.images[i])}
+					alt = {p.name + i}
 				/>
 			)
 		}
-		else
-		{
-			this.image = (
-				<img
-					src = {require('../../../../media/portfolio/' + p.thumb)}
-					alt = {p.name}
-				/>
+		return images;
+	}
+
+	generateMoreInfo(p) {
+		let info = [];
+
+		for(let i = 0; i < p.moreInfo.length; i++) {
+			info.push(
+				<p
+					key = {i}
+				>
+					{p.moreInfo[i]}
+				</p>
 			)
 		}
+
+		return info;
+	}
+
+	magnify(e, img) {
+
+		if(this.state.magnifiedImage === null) {
+			let t = e.target;
+
+			let x = e.clientX - t.offsetLeft;
+			let y = e.clientY - t.offsetTop;
+
+			this.setState({
+				magnifiedImage: img,
+				imagePosition: [x, y],
+				mousePosition: [e.clientX, e.clientY]
+			});
+		}
+
+		document.addEventListener('click', this.bound_clearMagnify);
+	}
+
+	clearMagnify() {
+		if(this.state.magnifiedImage != null) {
+			this.setState({
+				magnifiedImage: null,
+				imagePosition: null
+			});
+		}
+
+		document.removeEventListener('click', this.bound_clearMagnify);
 	}
 
 	render() {
@@ -52,13 +99,24 @@ class Piece extends React.Component {
 
 		return (
 			<div
-				className = {this.props.className}
+				className = {styles.portfolioPiece}
 			>
 				<h1>
 					{p.name}
 				</h1>
 				{this.images}
-				{this.image}
+				<div>
+					<p>
+						{p.description}
+					</p>
+					{this.moreInfo}
+				</div>
+				<Magnifier 
+					className = {styles.magnifier}
+					image = {this.state.magnifiedImage}
+					imagePosition = {this.state.imagePosition}
+					mousePosition = {this.state.mousePosition}
+				/>
 			</div>
 		)
 	}
