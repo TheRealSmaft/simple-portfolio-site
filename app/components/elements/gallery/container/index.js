@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import GalleryItem from '../gallery-item';
 
+import styles from '../../../../styles/gallery.css';
+
 class GalleryContainer extends React.Component {
 	render() {
 		let gallery = [];
@@ -12,12 +14,15 @@ class GalleryContainer extends React.Component {
 				<GalleryItem
 					key = {piece.url}
 					piece = {piece}
+					className = {styles.galleryItem}
 				/>
 			)
 		}
 
 		return (
-			<div>
+			<div
+				className = {styles.gallery}
+			>
 				{gallery}
 			</div>
 		)

@@ -4,7 +4,9 @@ import styles from '../styles/header.css';
 class Header extends React.Component {
 	render() {
 		return (
-			<div>
+			<header
+				className = {styles.header}
+			>
 				<div
 					className = {styles.logoArea}
 				>
@@ -13,7 +15,7 @@ class Header extends React.Component {
 						alt = "Matthew Brubaker Smith's Logo"
 					/>
 				</div>
-			</div>
+			</header>
 		)
 	}
 }

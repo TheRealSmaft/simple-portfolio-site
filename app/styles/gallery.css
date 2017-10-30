@@ -1,0 +1,12 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.galleryItem {
+  width: 200px;
+}
+.galleryItem img {
+  width: 100%;
+}
+/*# sourceMappingURL=gallery.css.map */
