@@ -11,7 +11,9 @@ class Footer extends React.Component {
 			<footer
 				className = {styles.footer}
 			>
-				&copy; Matthew Brubaker Smith {this.year}
+				<p>
+					&copy; Matthew Brubaker Smith {this.year}
+				</p>
 			</footer>
 		)
 	}

@@ -55,6 +55,7 @@
   -ms-user-select: none;
   user-select: none;
   border: 10px solid #666666;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .magnifier:hover {
   cursor: move;

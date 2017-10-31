@@ -11,6 +11,9 @@ class Bio extends React.Component {
 				<h1>
 					'Bout it 'Bout it
 				</h1>
+				<p>
+					My name is Matthew Brubaker Smith and I am a Graphic and Web Designer. Though to be honest, my skill set is more broad and varied than that title conveys.
+				</p>
 			</div>
 		)
 	}

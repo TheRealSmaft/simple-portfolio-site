@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../styles/header.css';
 
+import Bio from './elements/bio';
+
 class Header extends React.Component {
 	render() {
 		return (
@@ -15,6 +17,7 @@ class Header extends React.Component {
 						alt = "Matthew Brubaker Smith's Logo"
 					/>
 				</div>
+				<Bio />
 			</header>
 		)
 	}

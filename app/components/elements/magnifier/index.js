@@ -33,6 +33,12 @@ class Magnifier extends React.Component {
 
 		this.refs.magImage.style.left = (this.props.imagePosition[0] + leftOffset + this.pm.scrollLeft) * -2 + 150 + 'px';
 		this.refs.magImage.style.top = (this.props.imagePosition[1] + topOffset + this.pm.scrollTop) * -2 + 150 + 'px';
+
+		this.startPos = null;
+	}
+
+	hideMouseCursor() {
+		this.refs.mag.style.cursor = 'pointer'
 	}
 
 	render() {
