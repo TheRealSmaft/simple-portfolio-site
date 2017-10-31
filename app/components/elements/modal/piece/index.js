@@ -10,7 +10,9 @@ class Piece extends React.Component {
 		this.state = {
 			magnifiedImage: null,
 			imagePosition: null,
-			mousePosition: null
+			mousePosition: null,
+			imageDimensions: null,
+			outline: false
 		}
 
 		this.bound_clearMagnify = this.clearMagnify.bind(this);
@@ -21,7 +23,7 @@ class Piece extends React.Component {
 		this.moreInfo = this.generateMoreInfo(this.props.piece);
 	}
 
-	componentWillUpdate(nextProps) {
+	componentWillUpdate(nextProps, nextState) {
 		if(this.props.piece != nextProps.piece) {
 			this.images = this.generateImages(nextProps.piece);
 			this.moreInfo = this.generateMoreInfo(nextProps.piece);
@@ -76,7 +78,9 @@ class Piece extends React.Component {
 			this.setState({
 				magnifiedImage: img,
 				imagePosition: [x, y],
-				mousePosition: [e.clientX, e.clientY]
+				mousePosition: [e.clientX, e.clientY],
+				imageDimensions: [t.width, t.height],
+				outline: this.props.piece.outline
 			});
 		}
 
@@ -87,7 +91,10 @@ class Piece extends React.Component {
 		if(this.state.magnifiedImage != null) {
 			this.setState({
 				magnifiedImage: null,
-				imagePosition: null
+				imagePosition: null,
+				mousePosition: null,
+				imageDimensions: null,
+				outline: false
 			});
 		}
 
@@ -116,6 +123,8 @@ class Piece extends React.Component {
 					image = {this.state.magnifiedImage}
 					imagePosition = {this.state.imagePosition}
 					mousePosition = {this.state.mousePosition}
+					imageDimensions = {this.state.imageDimensions}
+					outline = {this.state.outline}
 				/>
 			</div>
 		)

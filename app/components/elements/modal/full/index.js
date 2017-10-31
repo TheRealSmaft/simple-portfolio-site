@@ -38,6 +38,7 @@ class FullModal extends React.Component {
 		return (
 			<div
 				className = {styles.modalContainer}
+				id = "portfolioModal"
 			>
 				<div
 					className = {styles.modalMenu}

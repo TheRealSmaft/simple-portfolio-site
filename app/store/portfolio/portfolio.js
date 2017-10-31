@@ -60,7 +60,7 @@ const portfolio = [
 			"I created this menu design with fire, Photoshop, Illustrator, and InDesign."
 		],
 		thumb: 'Flambe/FlambeThumbnail.png',
-		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
+		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeBackLarge.png'],
 		outline: false
 	},
 	{
