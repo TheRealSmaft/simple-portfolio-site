@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Magnifier extends React.Component {
-	componentWillMount() {
+	componentWillUpdate() {
 		this.emptyImage = document.createElement('img');
 		this.emptyImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 

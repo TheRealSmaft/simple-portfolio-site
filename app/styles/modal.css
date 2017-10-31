@@ -23,11 +23,9 @@
 }
 .pieceImage {
   width: 100%;
-  cursor: zoom-in;
 }
 .outlined {
   width: 100%;
-  cursor: zoom-in;
   outline: 1px solid black;
 }
 .modalMenu {

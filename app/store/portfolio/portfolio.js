@@ -11,7 +11,8 @@ const portfolio = [
 		images: ['AGTTapes/AGTTapesThumbnail.png'],
 		thumb: 'AGTTapes/AGTTapesThumbnail.png',
 		siteUrl: 'http://www.agttapes.com/home',
-		outline: true
+		outline: true,
+		magnifiable: false
 	},
 	{
 		name: 'Piano Competition Poster',
@@ -23,7 +24,8 @@ const portfolio = [
 		],
 		thumb: 'PianoPoster/PianoPosterThumbnail.png',
 		images: ['PianoPoster/PianoPosterLarge.jpg'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Elvisaurus Rex and the Carrot from Outer Space',
@@ -37,7 +39,8 @@ const portfolio = [
 		],
 		images: ['ElvisCartoon/ElvisCartoonThumbnail.jpg'],
 		thumb: 'ElvisCartoon/ElvisCartoonThumbnail.jpg',
-		outline: true
+		outline: true,
+		magnifiable: false
 	},
 	{
 		name: 'Sacrilicious Hopnipotent',
@@ -49,7 +52,8 @@ const portfolio = [
 		],
 		thumb: 'Hopnipotent/HopnipotentThumbnail.png',
 		images: ['Hopnipotent/HopnipotentLabelLarge.png'],
-		outline: false
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Flambé',
@@ -61,7 +65,8 @@ const portfolio = [
 		],
 		thumb: 'Flambe/FlambeThumbnail.png',
 		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeBackLarge.png'],
-		outline: false
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Batavia Main Street Events Poster',
@@ -72,7 +77,8 @@ const portfolio = [
 		],
 		thumb: 'BataviaPoster/BataviaPosterThumbnail.png',
 		images: ['BataviaPoster/BataviaPosterLarge.png'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Skull and Fishbowl Still Life',
@@ -84,7 +90,8 @@ const portfolio = [
 		],
 		thumb: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
 		images: ['SkullAndBowl/SkullAndBowlLarge.jpg'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Ladies Night Out Event',
@@ -96,7 +103,8 @@ const portfolio = [
 		],
 		thumb: 'LadiesNightOut/BLNLogo.jpg',
 		images: ['LadiesNightOut/LNOPostcardLarge.png'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Batavia Farmers\'s Market',
@@ -108,7 +116,8 @@ const portfolio = [
 		],
 		thumb: 'FarmersMarket/BFMLogoThumbnail.png',
 		images: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
-		outline: false
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Twisted Roots Game',
@@ -120,7 +129,8 @@ const portfolio = [
 		],
 		thumb: 'TwistedRoots/TwistedRootsThumbnail.jpg',
 		images: ['TwistedRoots/TwistedRootsLarge.jpg'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Carla and I Vector Portrait',
@@ -131,7 +141,8 @@ const portfolio = [
 		],
 		thumb: 'CarlaAndI/CarlaAndIThumbnail.png',
 		images: ['CarlaAndI/CarlaAndILarge.png'],
-		outline: true
+		outline: true,
+		magnifiable: true
 	},
 ];
 

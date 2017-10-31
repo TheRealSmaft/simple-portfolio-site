@@ -43,6 +43,9 @@ class Piece extends React.Component {
 					key = {i}
 					className = {p.outline ? styles.outlined : styles.pieceImage}
 					onClick = {(e) => this.magnify(e, p.images[i])}
+					style = {{
+						cursor: p.magnifiable ? 'zoom-in' : 'default'
+					}}
 					src = {require('../../../../media/portfolio/' + p.images[i])}
 					alt = {p.name + i}
 				/>
@@ -68,23 +71,24 @@ class Piece extends React.Component {
 	}
 
 	magnify(e, img) {
+		if(this.props.piece.magnifiable) {
+			if(this.state.magnifiedImage === null) {
+				let t = e.target;
 
-		if(this.state.magnifiedImage === null) {
-			let t = e.target;
+				let x = e.clientX - t.offsetLeft;
+				let y = e.clientY - t.offsetTop;
 
-			let x = e.clientX - t.offsetLeft;
-			let y = e.clientY - t.offsetTop;
+				this.setState({
+					magnifiedImage: img,
+					imagePosition: [x, y],
+					mousePosition: [e.clientX, e.clientY],
+					imageDimensions: [t.width, t.height],
+					outline: this.props.piece.outline
+				});
+			}
 
-			this.setState({
-				magnifiedImage: img,
-				imagePosition: [x, y],
-				mousePosition: [e.clientX, e.clientY],
-				imageDimensions: [t.width, t.height],
-				outline: this.props.piece.outline
-			});
+			document.addEventListener('click', this.bound_clearMagnify);
 		}
-
-		document.addEventListener('click', this.bound_clearMagnify);
 	}
 
 	clearMagnify() {
