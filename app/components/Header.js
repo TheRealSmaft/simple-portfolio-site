@@ -120,6 +120,7 @@ class Header extends React.Component {
 		portrait.addEventListener('mouseover', () => this.smile(anim1));
 		portrait.addEventListener('mouseleave', () => this.stopSmiling(anim1));
 
+		anim2.goToAndPlay(0, true);
 		this.blink(anim2);
 	}
 

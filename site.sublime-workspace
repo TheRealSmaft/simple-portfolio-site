@@ -520,19 +520,37 @@
 	"buffers":
 	[
 		{
-			"file": "app/components/elements/modal/full/index.js",
+			"file": "app/components/elements/bio/index.js",
 			"settings":
 			{
-				"buffer_size": 1869,
+				"buffer_size": 547,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/components/elements/modal/piece/index.js",
+			"file": "app/styles/bio.less",
 			"settings":
 			{
-				"buffer_size": 2799,
+				"buffer_size": 1193,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/_global.less",
+			"settings":
+			{
+				"buffer_size": 510,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/_variables.less",
+			"settings":
+			{
+				"buffer_size": 769,
 				"line_ending": "Windows"
 			}
 		}
@@ -597,11 +615,10 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/empty",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/animations",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck",
@@ -610,10 +627,13 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/footer.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Header.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/footer.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/bio.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio/index.js",
@@ -621,9 +641,6 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Footer.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/portfolio.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/product-link/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/reducers.js",
@@ -757,6 +774,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"#bc3315",
+			"d0451b",
+			"anim",
+			"Anim",
+			"anim",
+			"logoAnim",
+			"this.logoFloatUpAnimation",
+			"var",
 			"250",
 			"div",
 			"250",
@@ -875,16 +901,7 @@
 			"(e) => ",
 			"onChange = {(",
 			"id = ",
-			"Id",
-			"ID",
-			"id",
-			"Id",
-			"ID",
-			"id",
-			"input",
-			"htmlFor = ",
-			"htmlFor",
-			" value=\""
+			"Id"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,24 +919,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/components/elements/modal/full/index.js",
+					"file": "app/components/elements/bio/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1869,
+						"buffer_size": 547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								746,
-								746
+								547,
+								547
 							]
 						],
 						"settings":
@@ -928,39 +945,102 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1140.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/styles/bio.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1088,
+								1088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 44.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/_global.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/components/elements/modal/piece/index.js",
+					"buffer": 3,
+					"file": "app/styles/_variables.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2799,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2473,
-								2473
+								33,
+								33
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2100.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -983,11 +1063,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1043,7 +1130,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
