@@ -122,6 +122,11 @@ class Header extends React.Component {
 
 		anim2.goToAndPlay(0, true);
 		this.blink(anim2);
+		this.lookAround();
+	}
+
+	lookAround() {
+		console.log(ReactDOM.findDOMNode(this.refs.logo).firstChild.childNodes[1].firstChild.childNodes[3])
 	}
 
 	smile(anim) {
