@@ -8,8 +8,11 @@ const portfolio = [
 			'I also shot/edited all the photos, as well as created all of the graphics.',
 			'The AGT Tapes website was designed using AngularJS, SASS, PHP, SQL, and Adobe CC.'
 		],
+		images: ['AGTTapes/AGTTapesThumbnail.png'],
 		thumb: 'AGTTapes/AGTTapesThumbnail.png',
 		siteUrl: 'http://www.agttapes.com/home',
+		outline: true,
+		magnifiable: false
 	},
 	{
 		name: 'Piano Competition Poster',
@@ -20,7 +23,9 @@ const portfolio = [
 			"I designed this poster with Photoshop, Illustrator, and InDesign.",
 		],
 		thumb: 'PianoPoster/PianoPosterThumbnail.png',
-		image: 'PianoPoster/PianoPosterLarge.jpg',
+		images: ['PianoPoster/PianoPosterLarge.jpg'],
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Elvisaurus Rex and the Carrot from Outer Space',
@@ -32,7 +37,10 @@ const portfolio = [
 			"Rabbits are more food driven than dogs. Seriously, look it up!",
 			"I created this animation using an adorable bunny, After Effects, Photoshop, Illustrator, and Audition (for the audio recording/editing)."
 		],
+		images: ['ElvisCartoon/ElvisCartoonThumbnail.jpg'],
 		thumb: 'ElvisCartoon/ElvisCartoonThumbnail.jpg',
+		outline: true,
+		magnifiable: false
 	},
 	{
 		name: 'Sacrilicious Hopnipotent',
@@ -43,7 +51,9 @@ const portfolio = [
 			"I created this beer concept with recreational drinking, Photoshop, Illustrator, and hand drawings.",
 		],
 		thumb: 'Hopnipotent/HopnipotentThumbnail.png',
-		image: 'Hopnipotent/HopnipotentLabelLarge.png',
+		images: ['Hopnipotent/HopnipotentLabelLarge.png'],
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Flambé',
@@ -54,7 +64,9 @@ const portfolio = [
 			"I created this menu design with fire, Photoshop, Illustrator, and InDesign."
 		],
 		thumb: 'Flambe/FlambeThumbnail.png',
-		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeFrontLarge.png'],
+		images: ['Flambe/FlambeFrontLarge.png', 'Flambe/FlambeBackLarge.png'],
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Batavia Main Street Events Poster',
@@ -64,7 +76,9 @@ const portfolio = [
 			"I created this poster using Illustrator.",
 		],
 		thumb: 'BataviaPoster/BataviaPosterThumbnail.png',
-		image: 'BataviaPoster/BataviaPosterLarge.png',
+		images: ['BataviaPoster/BataviaPosterLarge.png'],
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Skull and Fishbowl Still Life',
@@ -75,7 +89,9 @@ const portfolio = [
 			"I think..."
 		],
 		thumb: 'SkullAndBowl/SkullAndBowlThumbnail.jpg',
-		image: 'SkullAndBowl/SkullAndBowlLarge.jpg',
+		images: ['SkullAndBowl/SkullAndBowlLarge.jpg'],
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Ladies Night Out Event',
@@ -86,7 +102,9 @@ const portfolio = [
 			"I created the Ladies Night Out logo using Illustrator and the postcard with Illustrator and Photoshop."
 		],
 		thumb: 'LadiesNightOut/BLNLogo.jpg',
-		image: 'LadiesNightOut/LNOPostcardLarge.png',
+		images: ['LadiesNightOut/LNOPostcardLarge.png'],
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Batavia Farmers\'s Market',
@@ -98,6 +116,8 @@ const portfolio = [
 		],
 		thumb: 'FarmersMarket/BFMLogoThumbnail.png',
 		images: ['FarmersMarket/BFMLogoLarge.png', 'FarmersMarket/BFMLogo20.png'],
+		outline: false,
+		magnifiable: true
 	},
 	{
 		name: 'Twisted Roots Game',
@@ -108,7 +128,9 @@ const portfolio = [
 			"The tree was drawn by hand using charcoal, and the rest was designed in Illustrator, Photoshop, and InDesign.",
 		],
 		thumb: 'TwistedRoots/TwistedRootsThumbnail.jpg',
-		image: 'TwistedRoots/TwistedRootsLarge.jpg',
+		images: ['TwistedRoots/TwistedRootsLarge.jpg'],
+		outline: true,
+		magnifiable: true
 	},
 	{
 		name: 'Carla and I Vector Portrait',
@@ -118,7 +140,9 @@ const portfolio = [
 			"I created this with Illustrator, elbow grease, and gumption."
 		],
 		thumb: 'CarlaAndI/CarlaAndIThumbnail.png',
-		image: 'CarlaAndI/CarlaAndILarge.png',
+		images: ['CarlaAndI/CarlaAndILarge.png'],
+		outline: true,
+		magnifiable: true
 	},
 ];
 

@@ -29,7 +29,6 @@ class FullModal extends React.Component {
 	generatePieceModal() {
 		return (
 			<Piece
-				className = {styles.portfolioPiece}
 				piece = {this.props.piece}
 			/>
 		)
@@ -38,24 +37,35 @@ class FullModal extends React.Component {
 	render() {
 		return (
 			<div
-				className = {styles.modal}
+				className = {styles.modalContainer}
+				id = "portfolioModal"
 			>
-				<Link
-					to = "/"
+				<div
+					className = {styles.modalMenu}
 				>
-					X
-				</Link>
-				<Link
-					to = {this.props.prevPiece ? this.props.prevPiece.url : ''}
+					<Link
+						className = {styles.prevLink}
+						to = {this.props.prevPiece ? this.props.prevPiece.url : ''}
+					>
+						Prev
+					</Link>
+					<Link
+						to = "/"
+					>
+						X
+					</Link>
+					<Link
+						className = {styles.nextLink}
+						to = {this.props.nextPiece ? this.props.nextPiece.url : ''}
+					>
+						Next
+					</Link>
+				</div>
+				<div
+					className = {styles.modal}
 				>
-					Prev
-				</Link>
-				<Link
-					to = {this.props.nextPiece ? this.props.nextPiece.url : ''}
-				>
-					Next
-				</Link>
-				{this.props.piece ? this.generatePieceModal() : ''}
+					{this.props.piece ? this.generatePieceModal() : ''}
+				</div>
 			</div>
 		)
 	}

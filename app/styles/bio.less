@@ -1,4 +1,26 @@
 @import './_variables';
 
 .bio {
+	flex-basis: ~"calc(100% - 320px)";
+	max-width: 500px;
+
+	margin-right: 20px;
+
+	text-align: right;
+
+	h1 {
+		margin: 0px;
+	}
+
+	h3 {
+		margin-top: 0px;
+	}
+
+	@media @small-max {
+		text-align: center;
+	}
+
+	@media @extra-small-max {
+		max-width: 90%;
+	}
 }

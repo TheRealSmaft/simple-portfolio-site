@@ -1,0 +1,23 @@
+.bio {
+  flex-basis: calc(100% - 320px);
+  max-width: 500px;
+  margin-right: 20px;
+  text-align: right;
+}
+.bio h1 {
+  margin: 0px;
+}
+.bio h3 {
+  margin-top: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .bio {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bio {
+    max-width: 90%;
+  }
+}
+/*# sourceMappingURL=bio.css.map */
