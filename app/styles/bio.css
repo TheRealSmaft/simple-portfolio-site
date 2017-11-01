@@ -6,6 +6,8 @@
 }
 .bio h1 {
   margin: 0px;
+  line-height: 30px;
+  color: #FF0001;
 }
 .bio h3 {
   margin-top: 0px;
