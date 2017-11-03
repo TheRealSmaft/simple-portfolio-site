@@ -52,6 +52,8 @@
   padding: 5px 10px;
   cursor: pointer;
   outline: none;
+  opacity: 0;
+  animation: p-fade-in 2000ms 2000ms ease-in-out forwards;
 }
 .bio button:active {
   background: -webkit-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
