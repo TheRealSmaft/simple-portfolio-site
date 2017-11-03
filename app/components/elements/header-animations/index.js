@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import BM from 'bodymovin';
 
+import styles from '../../../styles/header.css';
+
 class HeaderAnimations extends React.Component {
 	componentDidMount() {
 		let logoNode = ReactDOM.findDOMNode(this.refs.logo);
@@ -118,6 +120,8 @@ class HeaderAnimations extends React.Component {
 
 		portrait.addEventListener('mouseover', () => this.smile(anim1));
 		portrait.addEventListener('mouseleave', () => this.stopSmiling(anim1));
+		portrait.addEventListener('touchstart', () => this.smile(anim1));
+		portrait.addEventListener('touchend', () => this.stopSmiling(anim1));
 
 		anim2.goToAndPlay(0, true);
 		this.blink(anim2);
@@ -144,6 +148,7 @@ class HeaderAnimations extends React.Component {
 	render() {
 		return (
 			<div
+				className = {styles.logoArea}
 				style = {{
 					position: 'relative'
 				}}
