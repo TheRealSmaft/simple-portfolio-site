@@ -9,7 +9,6 @@ class Magnifier extends React.Component {
 	}
 
 	dragMag(e) {
-		e.preventDefault();
 		let x;
 		let y;
 
@@ -34,7 +33,7 @@ class Magnifier extends React.Component {
 
 	startDragging(e) {
 		document.body.style.touchAction = 'none';
-		e.preventDefault();
+
 		if(e.dataTransfer) {
 			e.dataTransfer.setDragImage(this.emptyImage, 0, 0);
 		}
