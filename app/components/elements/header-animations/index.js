@@ -39,8 +39,8 @@ class HeaderAnimations extends React.Component {
 	}
 
 	makeLogoInteractable(lastAnim) {
-		let balloon = this.refs.logo.firstChild.childNodes[1].childNodes[1].firstChild.childNodes[1];
-		let anvil = this.refs.logo.firstChild.childNodes[1].childNodes[1].firstChild.childNodes[0];
+		let balloon = this.refs.logo.firstChild.childNodes[1].childNodes[1].childNodes[1];
+		let anvil = this.refs.logo.firstChild.childNodes[1].childNodes[1].childNodes[0];
 
 		balloon.style['-webkit-tap-highlight-color'] = 'rgba(0,0,0,0)';
 		balloon.style['-webkit-tap-highlight-color'] = 'transparent';

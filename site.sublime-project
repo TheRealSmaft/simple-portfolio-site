@@ -19,7 +19,9 @@
 				"app/styles/media-queries.css",
 				"app/styles/media-queries.css.map",
 				"app/styles/_variables.css",
-				"app/styles/_variables.css.map"
+				"app/styles/_variables.css.map",
+				"app/styles/rogue.css",
+				"app/styles/rogue.css.map"
 			],
 			"path": "."
 		}
