@@ -1,5 +1,32 @@
 @import './_variables';
 
+@keyframes text-intro {
+	0% {
+		transform: translateX(100vw) skew(-15deg);
+	}
+
+	95% {
+		transform: translateX(0%) skew(-7deg);
+	}
+
+	98% {
+		transform: translateX(0%) skew(-3deg);
+	}
+
+	100% {
+		transform: translateX(0%) skew(0deg);
+	}
+}
+
+@keyframes p-fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .bio {
 	flex-basis: ~"calc(100% - 320px)";
 	max-width: 500px;
@@ -10,10 +37,54 @@
 
 	h1 {
 		margin: 0px;
+		line-height: 30px;
+
+		color: @red;
+
+		animation: text-intro 1000ms ease-in-out;
 	}
 
 	h3 {
 		margin-top: 0px;
+		transform: translateX(100vw);
+
+		animation: text-intro 1000ms 500ms ease-in-out forwards;
+	}
+
+	p {
+		opacity: 0;
+
+		animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
+	}
+
+	button {
+		box-shadow: @darkred 2px 2px 2px 0px inset;
+		
+		color: white;
+		background: -webkit-linear-gradient(@red 5%, @darkred 100%) @red;
+		background: -o-linear-gradient(@red 5%, @darkred 100%) @red;
+		background: linear-gradient(@red 5%, @darkred 100%) @red;
+		
+		border-radius: 3px;
+		border: 1px solid @darkred;
+
+		padding: 5px 10px;
+
+		cursor: pointer;
+
+		outline: none;
+
+		opacity: 0;
+
+		animation: p-fade-in 2000ms 2000ms ease-in-out forwards;
+
+		&:active {
+			background: -webkit-linear-gradient(@darkred 5%, @red 100%) @darkred;
+			background: -o-linear-gradient(@darkred 5%, @red 100%) @darkred;
+			background: linear-gradient(@darkred 5%, @red 100%) @darkred;
+
+			color: rgba(255,255,255,0.9);
+		}
 	}
 
 	@media @small-max {

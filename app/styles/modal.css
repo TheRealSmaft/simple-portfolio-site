@@ -48,11 +48,17 @@
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-.nextAndPrev {
-  width: 10%;
+.controlButtons {
+  width: 60px;
 }
 .prevLink {
-  width: 10%;
+  width: 60px;
+}
+.nextLink {
+  width: 60px;
+}
+.closeButton {
+  width: 60px;
 }
 .magnifier {
   position: absolute;
@@ -66,6 +72,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  touch-action: none;
   border: 10px solid #666666;
   background-color: rgba(255, 255, 255, 0.9);
 }

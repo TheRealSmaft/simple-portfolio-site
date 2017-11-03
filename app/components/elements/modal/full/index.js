@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { portfolioActions } from '../../../../store/portfolio';
 
 import Piece from '../piece';
+import ModalControls from '../controls';
 
 import styles from '../../../../styles/modal.css';
 
@@ -40,27 +40,10 @@ class FullModal extends React.Component {
 				className = {styles.modalContainer}
 				id = "portfolioModal"
 			>
-				<div
-					className = {styles.modalMenu}
-				>
-					<Link
-						className = {styles.prevLink}
-						to = {this.props.prevPiece ? this.props.prevPiece.url : ''}
-					>
-						Prev
-					</Link>
-					<Link
-						to = "/"
-					>
-						X
-					</Link>
-					<Link
-						className = {styles.nextLink}
-						to = {this.props.nextPiece ? this.props.nextPiece.url : ''}
-					>
-						Next
-					</Link>
-				</div>
+				<ModalControls 
+					prev = {this.props.prevPiece ? this.props.prevPiece.url : ''}
+					next = {this.props.nextPiece ? this.props.nextPiece.url : ''}
+				/>
 				<div
 					className = {styles.modal}
 				>

@@ -1,7 +1,9 @@
 import React from 'react';
-import styles from '../styles/header.css';
 
+import HeaderAnimations from './elements/header-animations';
 import Bio from './elements/bio';
+
+import styles from '../styles/header.css';
 
 class Header extends React.Component {
 	render() {
@@ -9,14 +11,7 @@ class Header extends React.Component {
 			<header
 				className = {styles.header}
 			>
-				<div
-					className = {styles.logoArea}
-				>
-					<img 
-						src = {require('../media/images/logo.svg')}
-						alt = "Matthew Brubaker Smith's Logo"
-					/>
-				</div>
+				<HeaderAnimations />
 				<Bio />
 			</header>
 		)

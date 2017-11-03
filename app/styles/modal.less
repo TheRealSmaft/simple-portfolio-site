@@ -56,12 +56,20 @@
 	justify-content: space-between;
 }
 
-.nextAndPrev {
-	width: 10%;
+.controlButtons {
+	width: 60px;
 }
 
 .prevLink {
-	.nextAndPrev;
+	.controlButtons;
+}
+
+.nextLink {
+	.controlButtons;
+}
+
+.closeButton {
+	.controlButtons;
 }
 
 .magnifier {
@@ -78,6 +86,8 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+
+	touch-action: none;
 
 	border: 10px solid @lightgray;
 	background-color: rgba(255,255,255,.9);
