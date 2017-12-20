@@ -31,6 +31,7 @@
   line-height: 30px;
   color: #FF0001;
   animation: text-intro 1000ms ease-in-out;
+  letter-spacing: 2px;
 }
 .bio h3 {
   margin-top: 0px;
@@ -60,6 +61,7 @@
   background: -o-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
   background: linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
   color: rgba(255, 255, 255, 0.9);
+  letter-spacing: -0.1px;
 }
 @media only screen and (max-width: 768px) {
   .bio {

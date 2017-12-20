@@ -4,15 +4,19 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
 				"font",
 				"font-size"
 			],
 			[
 				"margi",
-				"margin-top"
-			],
-			[
-				"marg",
 				"margin-top"
 			],
 			[
@@ -74,10 +78,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"back",
@@ -520,46 +520,28 @@
 	"buffers":
 	[
 		{
-			"file": "app/components/Header.js",
+			"file": "app/components/elements/bio/index.js",
 			"settings":
 			{
-				"buffer_size": 3797,
+				"buffer_size": 563,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/components/elements/modal/full/index.js",
+			"file": "app/components/elements/header-animations/index.js",
 			"settings":
 			{
-				"buffer_size": 1626,
+				"buffer_size": 4020,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/components/elements/modal/controls/index.js",
+			"file": "app/styles/header.less",
 			"settings":
 			{
-				"buffer_size": 1639,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/components/elements/magnifier/index.js",
-			"settings":
-			{
-				"buffer_size": 3402,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/styles/modal.less",
-			"settings":
-			{
-				"buffer_size": 1332,
+				"buffer_size": 580,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -624,31 +606,33 @@
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/animations",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/dist"
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/header-animations",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles"
 	],
 	"file_history":
 	[
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/rogue-brain/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/rogue.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/images/brain.svg",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/bio.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/header-animations/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/container/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/gallery-item/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Header.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/controls/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/logo-and-portrait/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_variables.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/footer.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Footer.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/portfolio.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/index.js",
@@ -657,11 +641,9 @@
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/StickyNav/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/actions.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/types.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/gallery-item/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/styles/pages/about/about.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/media-queries.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.css.map",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/container/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Main.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/dist/index.html",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/index.js",
@@ -757,13 +739,7 @@
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/services/default/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/styles/_global/global.css",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/product-details/additional-info/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/AboutSidebar/index.js",
-		"/C/xampp/apache/conf/httpd.conf",
-		"/C/Users/Matthew/Desktop/test.dxf",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/construction/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/retail/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/filtration/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/styles/_media-queries/media-queries.less"
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/AboutSidebar/index.js"
 	],
 	"find":
 	{
@@ -783,6 +759,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"createRandomCoordinate",
+			"startPos",
+			"Position",
+			"2",
+			"100%",
+			".1",
+			"5",
+			"10",
+			"itemIntro",
+			"unit(@i * @delayStep, ms)",
+			"poop",
+			"1",
+			"0",
+			"animation",
+			"=\"",
+			"circle",
+			"class",
+			"sphere",
+			"scene",
+			"$",
+			"media",
+			", { passive: false }",
 			"{passive: false}",
 			"false",
 			"changedTouches",
@@ -888,29 +886,7 @@
 			"obj",
 			"true",
 			"visible",
-			"MaterialInfoBlock",
-			"formattedContent",
-			"ContentBlock",
-			"description",
-			"machine",
-			"<h3>\n\t\t\t\t\t\t{c.header}\n\t\t\t\t\t</h3>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t{c.description}\n\t\t\t\t\t</p>",
-			"c.header",
-			"ContentBlock",
-			"description",
-			"Corned beef frankfurter shank, short ribs ham meatball cow pastrami porchetta beef ribs beef ham hock kielbasa pork chop shoulder. Short ribs ribeye bresaola capicola tongue ham hock rump.",
-			"products",
-			"left",
-			"yellow",
-			"0",
-			"contact",
-			"li",
-			"header",
-			"ContentBlock",
-			"h2NoMarginTop",
-			"top",
-			"bottom",
-			"contact",
-			"ContentBlock"
+			"MaterialInfoBlock"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -928,24 +904,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/components/Header.js",
+					"file": "app/components/elements/bio/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3797,
+						"buffer_size": 563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								594,
-								594
+								182,
+								182
 							]
 						],
 						"settings":
@@ -954,7 +930,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -962,27 +938,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/components/elements/modal/full/index.js",
+					"file": "app/components/elements/header-animations/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1626,
+						"buffer_size": 4020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1011,
-								1011
-							],
-							[
-								1030,
-								1030
-							],
-							[
-								1053,
-								1053
+								1095,
+								1095
 							]
 						],
 						"settings":
@@ -990,98 +958,28 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/components/elements/modal/controls/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								946,
-								946
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.x": 105.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/components/elements/magnifier/index.js",
+					"buffer": 2,
+					"file": "app/styles/header.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3402,
+						"buffer_size": 580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2447,
-								2447
-							],
-							[
-								2497,
-								2497
-							],
-							[
-								2540,
-								2540
-							],
-							[
-								2587,
-								2587
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1309.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/styles/modal.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								910,
-								910
+								173,
+								173
 							]
 						],
 						"settings":
@@ -1093,7 +991,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
