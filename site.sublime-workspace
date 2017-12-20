@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
+				"galleryItem",
+				"galleryItemEnlarge"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
 			[
-				"marg",
-				"margin-right"
+				"bord",
+				"border-radius"
 			],
 			[
 				"font",
@@ -17,6 +25,10 @@
 			],
 			[
 				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
 				"margin-top"
 			],
 			[
@@ -158,10 +170,6 @@
 			[
 				"image",
 				"imageNumber"
-			],
-			[
-				"trans",
-				"translateY"
 			],
 			[
 				"min",
@@ -506,25 +514,16 @@
 			[
 				"imp",
 				"import\timports a module …"
-			],
-			[
-				"ng",
-				"NgFileSelect\talias"
-			],
-			[
-				"Ng",
-				"NgFileSelect\talias"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/components/elements/bio/index.js",
+			"file": "app/components/elements/gallery/container/index.js",
 			"settings":
 			{
-				"buffer_size": 563,
-				"encoding": "UTF-8",
+				"buffer_size": 661,
 				"line_ending": "Windows"
 			}
 		},
@@ -532,7 +531,16 @@
 			"file": "app/components/elements/header-animations/index.js",
 			"settings":
 			{
-				"buffer_size": 4020,
+				"buffer_size": 4102,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/gallery.less",
+			"settings":
+			{
+				"buffer_size": 1367,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +549,7 @@
 			"file": "app/styles/header.less",
 			"settings":
 			{
-				"buffer_size": 580,
+				"buffer_size": 609,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -602,37 +610,36 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/header-animations",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles"
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/gallery",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/gallery/container",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/header-animations",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles"
 	],
 	"file_history":
 	[
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/rogue-brain/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/rogue.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/media/images/brain.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles/gallery.less",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/Header.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/modal/full/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/modal/controls/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/magnifier/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles/modal.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/bio.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/header-animations/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/container/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/gallery-item/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/bio/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Header.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/controls/index.js",
-		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/logo-and-portrait/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_variables.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/piece/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/magnifier/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/modal/full/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/modal.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/footer.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/gallery.less",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/App.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Footer.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/portfolio.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/default/index.js",
@@ -641,9 +648,11 @@
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/StickyNav/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/actions.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/duck/types.js",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/gallery-item/index.js",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/styles/pages/about/about.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/media-queries.less",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/styles/_global.css.map",
+		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/elements/gallery/container/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/components/Main.js",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/dist/index.html",
 		"/C/Users/Matthew/Documents/Acer/docs/site/simple-portfolio-site/app/store/portfolio/index.js",
@@ -743,7 +752,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -759,28 +768,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"createRandomCoordinate",
-			"startPos",
-			"Position",
-			"2",
-			"100%",
-			".1",
-			"5",
-			"10",
-			"itemIntro",
-			"unit(@i * @delayStep, ms)",
-			"poop",
-			"1",
-			"0",
-			"animation",
-			"=\"",
-			"circle",
-			"class",
-			"sphere",
-			"scene",
-			"$",
-			"media",
-			", { passive: false }",
+			" scale(1.05,1.05)",
+			".15",
 			"{passive: false}",
 			"false",
 			"changedTouches",
@@ -886,7 +875,27 @@
 			"obj",
 			"true",
 			"visible",
-			"MaterialInfoBlock"
+			"MaterialInfoBlock",
+			"formattedContent",
+			"ContentBlock",
+			"description",
+			"machine",
+			"<h3>\n\t\t\t\t\t\t{c.header}\n\t\t\t\t\t</h3>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t{c.description}\n\t\t\t\t\t</p>",
+			"c.header",
+			"ContentBlock",
+			"description",
+			"Corned beef frankfurter shank, short ribs ham meatball cow pastrami porchetta beef ribs beef ham hock kielbasa pork chop shoulder. Short ribs ribeye bresaola capicola tongue ham hock rump.",
+			"products",
+			"left",
+			"yellow",
+			"0",
+			"contact",
+			"li",
+			"header",
+			"ContentBlock",
+			"h2NoMarginTop",
+			"top",
+			"bottom"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -904,24 +913,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/components/elements/bio/index.js",
+					"file": "app/components/elements/gallery/container/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 563,
+						"buffer_size": 661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								182,
-								182
+								493,
+								493
 							]
 						],
 						"settings":
@@ -933,7 +942,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -942,15 +951,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4020,
+						"buffer_size": 4102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1095,
-								1095
+								890,
+								890
 							]
 						],
 						"settings":
@@ -958,28 +967,34 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 105.0,
-						"translation.y": 360.0,
+						"translation.x": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "app/styles/header.less",
+					"file": "app/styles/gallery.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 580,
+						"buffer_size": 1367,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								240,
+								240
 							]
 						],
 						"settings":
@@ -988,10 +1003,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/header.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1014,11 +1058,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1074,7 +1125,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

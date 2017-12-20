@@ -13,16 +13,28 @@
 }
 @keyframes galleryItemDance {
   0% {
-    transform: rotateZ(0deg) scale(1, 1);
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(0.8deg);
   }
   25% {
-    transform: rotateZ(3deg) scale(1.15, 1.15);
+    transform: rotateZ(1deg);
+  }
+  30% {
+    transform: rotateZ(0.8deg);
+  }
+  70% {
+    transform: rotateZ(-0.8deg);
   }
   75% {
-    transform: rotateZ(-3deg) scale(1.15, 1.15);
+    transform: rotateZ(-1deg);
+  }
+  80% {
+    transform: rotateZ(-0.8deg);
   }
   100% {
-    transform: rotateZ(0deg) scale(1, 1);
+    transform: rotateZ(0deg);
   }
 }
 .galleryItem {
@@ -48,7 +60,7 @@
 }
 .galleryItem:hover img,
 .galleryItem:hover div {
-  animation: galleryItemDance 1500ms infinite;
+  animation: galleryItemDance 3s linear infinite;
 }
 .galleryItem img {
   width: 100%;

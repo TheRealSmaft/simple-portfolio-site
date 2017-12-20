@@ -8,6 +8,7 @@ import styles from '../../../styles/header.css';
 class HeaderAnimations extends React.Component {
 	componentDidMount() {
 		let logoNode = ReactDOM.findDOMNode(this.refs.logo);
+		logoNode.style.display = "block";
 
 		let animData = {
 			container: logoNode,
@@ -155,6 +156,9 @@ class HeaderAnimations extends React.Component {
 			>
 				<div
 					ref = "logo"
+					style = {{
+						display: "none"
+					}}
 				>
 				</div>
 				<div
