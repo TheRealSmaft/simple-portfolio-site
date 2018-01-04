@@ -7,6 +7,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  transition: height 300ms;
 }
 @media only screen and (max-width: 768px) {
   .header {

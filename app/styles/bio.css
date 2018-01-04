@@ -48,11 +48,6 @@
     font-size: .95em;
   }
 }
-.bio p {
-  min-height: 60px;
-  opacity: 0;
-  animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
-}
 .bio button {
   box-shadow: #CC0100 2px 2px 2px 0px inset;
   color: white;
@@ -85,5 +80,35 @@
   .bio {
     max-width: 90%;
   }
+}
+.initialAboutParagraph {
+  min-height: 60px;
+  opacity: 0;
+  animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
+}
+.skillSetIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .skillSetIcons {
+    justify-content: center;
+  }
+}
+.skillSetIcons div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25%;
+  cursor: pointer;
+}
+.skillSetIcons div img {
+  max-width: 90%;
+  max-height: 100px;
+}
+.skillSetList {
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=bio.css.map */

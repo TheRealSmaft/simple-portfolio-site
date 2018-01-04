@@ -59,13 +59,6 @@
 		}
 	}
 
-	p {
-		min-height: 60px;
-		opacity: 0;
-
-		animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
-	}
-
 	button {
 		box-shadow: @darkred 2px 2px 2px 0px inset;
 		
@@ -108,4 +101,42 @@
 	@media @extra-small-max {
 		max-width: 90%;
 	}
+}
+
+.initialAboutParagraph {
+	min-height: 60px;
+	opacity: 0;
+
+	animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
+}
+
+.skillSetIcons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	margin-bottom: 20px;
+
+	@media @small-max {
+		justify-content: center;
+	}
+
+	div {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+		width: 25%;
+
+		cursor: pointer;
+
+		img {
+			max-width: 90%;
+			max-height: 100px;
+		}
+	}
+}
+
+.skillSetList {
+	font-size: 1.1em;
 }

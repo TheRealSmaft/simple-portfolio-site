@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SkillSet from '../skillset';
+
 import styles from '../../../styles/bio.css';
 
 class Bio extends React.Component {
@@ -10,13 +12,16 @@ class Bio extends React.Component {
 		}
 
 		this.aboutTextArray = [
-			"My name is Matthew Brubaker Smith and I am a Graphic and Web Designer. Though to be honest, my skill set is more broad and varied than that title conveys.",
-			"Fuck you"
+		<SkillSet />,
+			<p className = {styles.initialAboutParagraph}>Thank you for checking out my portfolio site! My broad skill set runs the gamut from programming and web development to graphic design and animation</p>,
+			<p>I am available for freelance work for websites, 2D and 3D graphics, animation, print design, branding / logo design, and just about anything in between. I am also interested in permanent positions, if your offering!</p>,
+			
 		];
 
 		this.buttonTextArray = [
 			"Read More",
-			"Check My Skillz"
+			"Check My Skillz",
+			"From the Top"
 		];
 	}
 
@@ -49,9 +54,7 @@ class Bio extends React.Component {
 				<h3>
 					Web&nbsp;Developer &bull; Graphic&nbsp;Designer
 				</h3>
-				<p>
-					{this.aboutTextArray[this.state.currentAboutParagraph]}
-				</p>
+				{this.aboutTextArray[this.state.currentAboutParagraph]}
 				<button
 					onClick = {() => this.getNextAboutParagraph()}
 				>
