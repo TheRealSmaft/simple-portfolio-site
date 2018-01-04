@@ -2,7 +2,7 @@
 
 @keyframes text-intro {
 	0% {
-		transform: translateX(100vw) skew(-15deg);
+		transform: translateX(-100vw) skew(-15deg);
 	}
 
 	95% {
@@ -31,9 +31,7 @@
 	flex-basis: ~"calc(100% - 320px)";
 	max-width: 500px;
 
-	margin-right: 20px;
-
-	text-align: right;
+	margin: 0px 20px;
 
 	h1 {
 		margin: 0px;
@@ -43,6 +41,11 @@
 
 		animation: text-intro 1000ms ease-in-out;
 		letter-spacing: 2px;
+
+		@media @extra-small-max {
+			font-size: 1.3em;
+			letter-spacing: 0px;
+		}
 	}
 
 	h3 {
@@ -50,9 +53,14 @@
 		transform: translateX(100vw);
 
 		animation: text-intro 1000ms 500ms ease-in-out forwards;
+
+		@media @extra-small-max {
+			font-size: .95em;
+		}
 	}
 
 	p {
+		min-height: 60px;
 		opacity: 0;
 
 		animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
@@ -93,6 +101,8 @@
 
 	@media @small-max {
 		text-align: center;
+		margin: 0px;
+		order: 2;
 	}
 
 	@media @extra-small-max {

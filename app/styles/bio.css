@@ -1,6 +1,6 @@
 @keyframes text-intro {
   0% {
-    transform: translateX(100vw) skew(-15deg);
+    transform: translateX(-100vw) skew(-15deg);
   }
   95% {
     transform: translateX(0%) skew(-7deg);
@@ -23,8 +23,7 @@
 .bio {
   flex-basis: calc(100% - 320px);
   max-width: 500px;
-  margin-right: 20px;
-  text-align: right;
+  margin: 0px 20px;
 }
 .bio h1 {
   margin: 0px;
@@ -33,12 +32,24 @@
   animation: text-intro 1000ms ease-in-out;
   letter-spacing: 2px;
 }
+@media only screen and (max-width: 480px) {
+  .bio h1 {
+    font-size: 1.3em;
+    letter-spacing: 0px;
+  }
+}
 .bio h3 {
   margin-top: 0px;
   transform: translateX(100vw);
   animation: text-intro 1000ms 500ms ease-in-out forwards;
 }
+@media only screen and (max-width: 480px) {
+  .bio h3 {
+    font-size: .95em;
+  }
+}
 .bio p {
+  min-height: 60px;
   opacity: 0;
   animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
 }
@@ -66,6 +77,8 @@
 @media only screen and (max-width: 768px) {
   .bio {
     text-align: center;
+    margin: 0px;
+    order: 2;
   }
 }
 @media only screen and (max-width: 480px) {
