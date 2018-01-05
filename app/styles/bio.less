@@ -1,32 +1,5 @@
 @import './_variables';
 
-@keyframes text-intro {
-	0% {
-		transform: translateX(-100vw) skew(-15deg);
-	}
-
-	95% {
-		transform: translateX(0%) skew(-7deg);
-	}
-
-	98% {
-		transform: translateX(0%) skew(-3deg);
-	}
-
-	100% {
-		transform: translateX(0%) skew(0deg);
-	}
-}
-
-@keyframes p-fade-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 .bio {
 	flex-basis: ~"calc(100% - 320px)";
 	max-width: 500px;
@@ -39,7 +12,6 @@
 
 		color: @red;
 
-		animation: text-intro 1000ms ease-in-out;
 		letter-spacing: 2px;
 
 		@media @extra-small-max {
@@ -50,45 +22,16 @@
 
 	h3 {
 		margin-top: 0px;
-		transform: translateX(100vw);
-
-		animation: text-intro 1000ms 500ms ease-in-out forwards;
 
 		@media @extra-small-max {
 			font-size: .95em;
 		}
 	}
 
-	button {
-		box-shadow: @darkred 2px 2px 2px 0px inset;
-		
-		color: white;
-
-		background: -webkit-linear-gradient(@red 5%, @darkred 100%) @red;
-		background: -o-linear-gradient(@red 5%, @darkred 100%) @red;
-		background: linear-gradient(@red 5%, @darkred 100%) @red;
-		
-		border-radius: 3px;
-		border: 1px solid @darkred;
-
-		padding: 5px 10px;
-
-		cursor: pointer;
-
-		outline: none;
-
-		opacity: 0;
-
-		animation: p-fade-in 2000ms 2000ms ease-in-out forwards;
-
-		&:active {
-			background: -webkit-linear-gradient(@darkred 5%, @red 100%) @darkred;
-			background: -o-linear-gradient(@darkred 5%, @red 100%) @darkred;
-			background: linear-gradient(@darkred 5%, @red 100%) @darkred;
-
-			color: rgba(255,255,255,0.9);
-
-			letter-spacing: -.1px;
+	p {
+		@media @small-max {
+			margin-left: 20px;
+			margin-right: 20px;
 		}
 	}
 
@@ -105,38 +48,4 @@
 
 .initialAboutParagraph {
 	min-height: 60px;
-	opacity: 0;
-
-	animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
-}
-
-.skillSetIcons {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-
-	margin-bottom: 20px;
-
-	@media @small-max {
-		justify-content: center;
-	}
-
-	div {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		
-		width: 25%;
-
-		cursor: pointer;
-
-		img {
-			max-width: 90%;
-			max-height: 100px;
-		}
-	}
-}
-
-.skillSetList {
-	font-size: 1.1em;
 }

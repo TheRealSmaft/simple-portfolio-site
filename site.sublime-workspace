@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
 				"galleryItem",
 				"galleryItemEnlarge"
 			],
@@ -12,24 +44,12 @@
 				"transform"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"mar",
@@ -58,10 +78,6 @@
 			[
 				"maw",
 				"max-width"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"border",
@@ -194,10 +210,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"min-",
@@ -502,45 +514,25 @@
 			[
 				"type",
 				"typeof\tkeyword"
-			],
-			[
-				"Fil",
-				"FileDropDirective\talias"
-			],
-			[
-				"d",
-				"FileDropDirective\tclass"
-			],
-			[
-				"imp",
-				"import\timports a module …"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/components/elements/gallery/container/index.js",
+			"file": "app/components/elements/bio/index.js",
 			"settings":
 			{
-				"buffer_size": 661,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/components/elements/header-animations/index.js",
-			"settings":
-			{
-				"buffer_size": 4102,
+				"buffer_size": 1537,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/styles/gallery.less",
+			"file": "app/components/elements/skillset/index.js",
 			"settings":
 			{
-				"buffer_size": 1367,
+				"buffer_size": 2730,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -549,7 +541,16 @@
 			"file": "app/styles/header.less",
 			"settings":
 			{
-				"buffer_size": 609,
+				"buffer_size": 620,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/bio.less",
+			"settings":
+			{
+				"buffer_size": 2151,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -614,15 +615,25 @@
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements",
-		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/gallery",
-		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/gallery/container",
-		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/header-animations",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/skillset",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/skill-list-bullets",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles"
 	],
 	"file_history":
 	[
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/skill-list-bullets/hand.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/skill-list-bullets/heart.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/skill-list-bullets/brain.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles/header.less",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/brain.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/hand.svg",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/media/images/heart.svg",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/styles/gallery.less",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/Header.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/gallery/container/index.js",
+		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/header-animations/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/modal/full/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/modal/controls/index.js",
 		"/C/Users/Matthew/Documents/Acer/docs/simple-portfolio-site/app/components/elements/magnifier/index.js",
@@ -739,20 +750,11 @@
 		"/C/Users/Matthew/Documents/Websites/AMT/assets/images/icons/contact/mobile-email-icon.svg",
 		"/C/Users/Matthew/Documents/Websites/AMT/assets/images/icons/contact/email-icon-white.svg",
 		"/C/Users/Matthew/Documents/Websites/AMT/app/components/Main.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/styles/sidebar/sidebar.less",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/ProductSidebar/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/CapabilitiesSidebar/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/StickyContainer/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/services/default/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/styles/_global/global.css",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/products/product-details/additional-info/index.js",
-		"/C/Users/Matthew/Documents/Websites/AMT/app/components/layout/Sidebars/AboutSidebar/index.js"
+		"/C/Users/Matthew/Documents/Websites/AMT/app/components/pages/index.js"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -768,6 +770,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"brain",
+			"<li>",
+			"Link",
+			"a>",
+			"div",
+			"%;\n",
+			"div",
+			"text-align: right;",
+			"0,0",
+			"0",
+			"rotateZ",
 			" scale(1.05,1.05)",
 			".15",
 			"{passive: false}",
@@ -884,18 +897,7 @@
 			"c.header",
 			"ContentBlock",
 			"description",
-			"Corned beef frankfurter shank, short ribs ham meatball cow pastrami porchetta beef ribs beef ham hock kielbasa pork chop shoulder. Short ribs ribeye bresaola capicola tongue ham hock rump.",
-			"products",
-			"left",
-			"yellow",
-			"0",
-			"contact",
-			"li",
-			"header",
-			"ContentBlock",
-			"h2NoMarginTop",
-			"top",
-			"bottom"
+			"Corned beef frankfurter shank, short ribs ham meatball cow pastrami porchetta beef ribs beef ham hock kielbasa pork chop shoulder. Short ribs ribeye bresaola capicola tongue ham hock rump."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -913,24 +915,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/components/elements/gallery/container/index.js",
+					"file": "app/components/elements/bio/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 661,
+						"buffer_size": 1537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								493,
-								493
+								277,
+								277
 							]
 						],
 						"settings":
@@ -947,95 +949,97 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/components/elements/header-animations/index.js",
+					"file": "app/components/elements/skillset/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4102,
+						"buffer_size": 2730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								890,
-								890
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "app/styles/gallery.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1367,
-						"regions":
-						{
-						},
-						"selection":
-						[
+								533,
+								533
+							],
 							[
-								240,
-								240
+								1008,
+								1008
+							],
+							[
+								1363,
+								1363
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/styles/header.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 609,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								488,
-								488
+								218,
+								218
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/LESS/LESS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/bio.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2149,
+								2149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1058,18 +1062,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1125,7 +1122,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SkillSet from '../skillset';
+import SkillsetToggle from '../skillset/skillset-toggle';
 
 import styles from '../../../styles/bio.css';
 
@@ -12,15 +12,13 @@ class Bio extends React.Component {
 		}
 
 		this.aboutTextArray = [
-		<SkillSet />,
-			<p className = {styles.initialAboutParagraph}>Thank you for checking out my portfolio site! My broad skill set runs the gamut from programming and web development to graphic design and animation</p>,
+			<p className = {styles.initialAboutParagraph}>Thank you for checking out my portfolio site! My broad skill set runs the gamut from programming and web development to graphic design and animation.</p>,
 			<p>I am available for freelance work for websites, 2D and 3D graphics, animation, print design, branding / logo design, and just about anything in between. I am also interested in permanent positions, if your offering!</p>,
 			
 		];
 
 		this.buttonTextArray = [
 			"Read More",
-			"Check My Skillz",
 			"From the Top"
 		];
 	}
@@ -60,6 +58,7 @@ class Bio extends React.Component {
 				>
 					{this.buttonTextArray[this.state.currentAboutParagraph]}
 				</button>
+				<SkillsetToggle />
 			</div>
 		)
 	}

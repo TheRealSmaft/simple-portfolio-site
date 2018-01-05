@@ -5,6 +5,7 @@ import EmptyModal from './elements/modal/empty';
 import FullModal from './elements/modal/full';
 
 import Header from './Header';
+import SkillsetList from './elements/skillset/skillset-list';
 import GalleryContainer from './elements/gallery/container';
 import Footer from './Footer';
 
@@ -17,6 +18,7 @@ class App extends React.Component {
 				className = {styles.main}
 			>
 				<Header />
+				<SkillsetList />
 				<GalleryContainer />
 				<Footer />
 				<Switch>
