@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import AnimateHeight from 'react-animate-height';
 
 import styles from '../../../../styles/skillset.css';
 
@@ -8,13 +9,40 @@ const heartBullet = require('../../../../media/images/skill-list-bullets/heart.s
 const handBullet = require('../../../../media/images/skill-list-bullets/hand.svg');
 
 class SkillsetList extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			height: 0
+		}
+	}
+
+	componentWillUpdate(nextProps) {
+		if(nextProps.showSkills != this.props.showSkills) 
+		{
+			if(nextProps.showSkills)
+			{
+				this.setState({
+					height: "auto"
+				})
+			}
+			else
+			{
+				this.setState({
+					height: 0
+				})
+			}
+		}
+	}
+
 	render() {
 		return (
-			<div>
+			<AnimateHeight
+				duration = {1000}
+				height = {this.state.height}
+			>
 				<div
 					className = {styles.skillsetContainer}
 					style = {{
-						height: this.props.showSkills ? "auto" : "0px",
 						opacity: this.props.showSkills ? 1 : 0
 					}}
 				>
@@ -145,7 +173,7 @@ class SkillsetList extends React.Component {
 						</ul>
 					</div>
 				</div>
-			</div>
+			</AnimateHeight>
 		)
 	}
 }
