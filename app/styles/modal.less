@@ -11,6 +11,15 @@
 	}
 }
 
+@keyframes piece-fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .modalContainer {
 	z-index: 99;
 	position: fixed;
@@ -22,7 +31,7 @@
 
 	overflow: auto;
 
-	background-color: rgba(255,255,255,0.95);
+	background-color: rgba(255,255,255,0.97);
 
 	animation: fade-in 500ms forwards;
 }
@@ -42,6 +51,10 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: center;
+
+	opacity: 0;
+	animation: piece-fade-in 500ms forwards;
+	animation-delay: 500ms;
 }
 
 .pieceImage {
@@ -53,6 +66,20 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+.pieceDetails {
+	h2, h3 {
+		color: @darkred;
+	}
+
+	p {
+		margin-left: 20px;
+	}
+
+	p:last-of-type {
+		margin-bottom: 80px;
+	}
 }
 
 .outlined {
