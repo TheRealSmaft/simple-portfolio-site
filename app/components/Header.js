@@ -11,8 +11,8 @@ class Header extends React.Component {
 			<header
 				className = {styles.header}
 			>
-				<HeaderAnimations />
 				<Bio />
+				<HeaderAnimations />
 			</header>
 		)
 	}

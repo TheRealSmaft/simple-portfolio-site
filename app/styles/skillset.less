@@ -1,0 +1,54 @@
+@import './_variables';
+
+.skillsetContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+	transition: opacity 1s;
+
+	@media only screen and (max-width: 670px) {
+		flex-direction: column;
+	}
+}
+
+.skillset {
+	display: flex;
+	flex-direction: column;
+
+	img {
+		max-height: 135px;
+	}
+
+	h3 {
+		align-self: center;
+	}
+
+	&:nth-of-type(2) {
+		img {
+			max-height: 162px;
+		}
+	}
+}
+
+.skillsetToggle {
+	margin-left: 10px;
+
+	@media @super-small-max {
+
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
+
+.skillsetList {
+	font-size: 1.15em;
+	line-height: 1.5em;
+
+	@media only screen and (max-width: 670px) {
+		align-self: center;
+		min-width: 200px;
+		max-width: 90%;
+	}
+}

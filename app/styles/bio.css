@@ -1,76 +1,47 @@
-@keyframes text-intro {
-  0% {
-    transform: translateX(100vw) skew(-15deg);
-  }
-  95% {
-    transform: translateX(0%) skew(-7deg);
-  }
-  98% {
-    transform: translateX(0%) skew(-3deg);
-  }
-  100% {
-    transform: translateX(0%) skew(0deg);
-  }
-}
-@keyframes p-fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .bio {
   flex-basis: calc(100% - 320px);
   max-width: 500px;
-  margin-right: 20px;
-  text-align: right;
+  margin: 0px 20px;
 }
 .bio h1 {
   margin: 0px;
   line-height: 30px;
   color: #FF0001;
-  animation: text-intro 1000ms ease-in-out;
   letter-spacing: 2px;
+}
+@media only screen and (max-width: 480px) {
+  .bio h1 {
+    font-size: 1.3em;
+    letter-spacing: 0px;
+  }
 }
 .bio h3 {
   margin-top: 0px;
-  transform: translateX(100vw);
-  animation: text-intro 1000ms 500ms ease-in-out forwards;
 }
-.bio p {
-  opacity: 0;
-  animation: p-fade-in 2000ms 1500ms ease-in-out forwards;
+@media only screen and (max-width: 480px) {
+  .bio h3 {
+    font-size: .95em;
+  }
 }
-.bio button {
-  box-shadow: #CC0100 2px 2px 2px 0px inset;
-  color: white;
-  background: -webkit-linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
-  background: -o-linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
-  background: linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
-  border-radius: 3px;
-  border: 1px solid #CC0100;
-  padding: 5px 10px;
-  cursor: pointer;
-  outline: none;
-  opacity: 0;
-  animation: p-fade-in 2000ms 2000ms ease-in-out forwards;
-}
-.bio button:active {
-  background: -webkit-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
-  background: -o-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
-  background: linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: -0.1px;
+@media only screen and (max-width: 768px) {
+  .bio p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .bio {
     text-align: center;
+    margin: 0px;
+    order: 2;
   }
 }
 @media only screen and (max-width: 480px) {
   .bio {
     max-width: 90%;
   }
+}
+.initialAboutParagraph {
+  min-height: 60px;
 }
 /*# sourceMappingURL=bio.css.map */

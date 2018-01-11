@@ -37,4 +37,23 @@ input,
 textarea {
   font-family: 'Lato', sans-serif;
 }
+button {
+  box-shadow: #CC0100 2px 2px 2px 0px inset;
+  color: white;
+  background: -webkit-linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
+  background: -o-linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
+  background: linear-gradient(#FF0001 5%, #CC0100 100%) #FF0001;
+  border-radius: 3px;
+  border: 1px solid #CC0100;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+button:active {
+  background: -webkit-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
+  background: -o-linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
+  background: linear-gradient(#CC0100 5%, #FF0001 100%) #CC0100;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: -0.1px;
+}
 /*# sourceMappingURL=_global.css.map */

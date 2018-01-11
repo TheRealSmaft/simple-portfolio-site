@@ -13,16 +13,13 @@
 }
 @keyframes galleryItemDance {
   0% {
-    transform: rotateZ(0deg) scale(1, 1);
+    transform: scale(1, 1);
   }
-  25% {
-    transform: rotateZ(3deg) scale(1.15, 1.15);
-  }
-  75% {
-    transform: rotateZ(-3deg) scale(1.15, 1.15);
+  50% {
+    transform: scale(1.05, 1.05);
   }
   100% {
-    transform: rotateZ(0deg) scale(1, 1);
+    transform: scale(1, 1);
   }
 }
 .galleryItem {
@@ -48,7 +45,7 @@
 }
 .galleryItem:hover img,
 .galleryItem:hover div {
-  animation: galleryItemDance 1500ms infinite;
+  animation: galleryItemDance 1500ms ease-in-out infinite;
 }
 .galleryItem img {
   width: 100%;

@@ -20,13 +20,13 @@ class Piece extends React.Component {
 
 	componentWillMount() {
 		this.images = this.generateImages(this.props.piece);
-		this.moreInfo = this.generateMoreInfo(this.props.piece);
+		this.funFacts = this.generateFunFacts(this.props.piece);
 	}
 
 	componentWillUpdate(nextProps, nextState) {
 		if(this.props.piece != nextProps.piece) {
 			this.images = this.generateImages(nextProps.piece);
-			this.moreInfo = this.generateMoreInfo(nextProps.piece);
+			this.funFacts = this.generateFunFacts(nextProps.piece);
 			this.clearMagnify();
 		}
 	}
@@ -54,15 +54,15 @@ class Piece extends React.Component {
 		return images;
 	}
 
-	generateMoreInfo(p) {
+	generateFunFacts(p) {
 		let info = [];
 
-		for(let i = 0; i < p.moreInfo.length; i++) {
+		for(let i = 0; i < p.funFacts.length; i++) {
 			info.push(
 				<p
 					key = {i}
 				>
-					{p.moreInfo[i]}
+					{p.funFacts[i]}
 				</p>
 			)
 		}
@@ -116,11 +116,35 @@ class Piece extends React.Component {
 					{p.name}
 				</h1>
 				{this.images}
-				<div>
+				<div
+					className = {styles.pieceDetails}
+				>
+					<h2>
+						Project Details
+					</h2>
+					<hr />
+					<h3>
+						Challenge
+					</h3>
 					<p>
-						{p.description}
+						{p.challenge}
 					</p>
-					{this.moreInfo}
+					<h3>
+						Concept
+					</h3>
+					<p>
+						{p.concept}
+					</p>
+					<h3>
+						Design Method
+					</h3>
+					<p>
+						{p.method}
+					</p>
+					<h3>
+						Fun Facts
+					</h3>
+					{this.funFacts}
 				</div>
 				<Magnifier 
 					className = {styles.magnifier}
