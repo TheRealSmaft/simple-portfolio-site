@@ -38,18 +38,38 @@ class Piece extends React.Component {
 	generateImages(p) {
 		let images = [];
 		for(let i = 0; i < p.images.length; i++) {
-			images.push(
-				<img
-					key = {i}
-					className = {p.outline ? styles.outlined : styles.pieceImage}
-					onClick = {(e) => this.magnify(e, p.images[i])}
-					style = {{
-						cursor: p.magnifiable ? 'zoom-in' : 'default'
-					}}
-					src = {require('../../../../media/portfolio/' + p.images[i])}
-					alt = {p.name + i}
-				/>
-			)
+
+			if(p.link) {
+				images.push(
+					<a
+						key = {i}
+						href = {p.link}
+						target = "_blank"
+					>
+						<img
+							key = {i}
+							className = {p.outline ? styles.outlined : styles.pieceImage}
+							src = {require('../../../../media/portfolio/' + p.images[i])}
+							alt = {p.name + i}
+						/>
+					</a>
+				)
+			}
+			else 
+			{
+				images.push(
+					<img
+						key = {i}
+						className = {p.outline ? styles.outlined : styles.pieceImage}
+						onClick = {(e) => this.magnify(e, p.images[i])}
+						style = {{
+							cursor: p.magnifiable ? 'zoom-in' : 'default'
+						}}
+						src = {require('../../../../media/portfolio/' + p.images[i])}
+						alt = {p.name + i}
+					/>
+				)
+			}
 		}
 		return images;
 	}
@@ -116,6 +136,18 @@ class Piece extends React.Component {
 					{p.name}
 				</h1>
 				{this.images}
+				{
+					p.link ?
+					<a
+						href = {p.link}
+						target = "_blank"
+					>
+						<button>
+							Check It Out
+						</button>
+					</a>
+					: ''
+				}
 				<div
 					className = {styles.pieceDetails}
 				>

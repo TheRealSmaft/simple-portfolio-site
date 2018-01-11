@@ -1,5 +1,21 @@
 const portfolio = [
 	{
+		name: "Matt's Original Portfolio Site",
+		url: "matts-original-portfolio-site",
+		challenge: "Make an awesome portfolio site that blows people's friggin' minds!",
+		concept: "Infuse my real portfolio site with a point-and-click adventure game that takes advantage of the user's expectations for what a website should be.",
+		method: "I hand coded the site from scratch using React and Redux (which I was learning along the way). I used Webpack/NPM to put together my build environment which also included Less for CSS and an amazing library formerly called Bodymovin (now called Lottie) that allowed me to convert After Effects animations into SVGs. Going beyond the scope of Bodymovin/Lottie's intended use, I used Javascript to access the inner elements of the animations to allow deeper interaction for the point-and-click game. I could go to great lengths about this website project, but if you want to check it out, click the Check It Out link above.",
+		funFacts: [
+			"I use local storage to autosave user's progress in the game, so if they leave and come back, they are in the same place. When they have beaten (or chosen to skip) the game, they are brought directly to the normal site when they return.",
+			"Due to the extremely unconventional nature of the site, I decided to build a simpler site, keeping the old one as a portfolio piece in and of itself."
+		],
+		images: ["OriginalPortfolioSite/OriginalPortfolioSiteThumbnail.jpg"],
+		thumb: "OriginalPortfolioSite/OriginalPortfolioSiteThumbnail.jpg",
+		outline: true,
+		magnifiable: false,
+		link: "http://oldsite.mattbsmith.com"
+	},	
+	{
 		name: "AGT Tapes Website",
 		url: "agt-tapes-website",
 		challenge: "Design a website to promote AGT Products' tape division.",
@@ -10,9 +26,9 @@ const portfolio = [
 		],
 		images: ["AGTTapes/AGTTapesThumbnail.png"],
 		thumb: "AGTTapes/AGTTapesThumbnail.png",
-		siteUrl: "http://www.agttapes.com/home",
 		outline: true,
-		magnifiable: false
+		magnifiable: false,
+		link: "http://www.agttapes.com/home"
 	},
 	{
 		name: "Piano Competition Poster",
@@ -42,7 +58,8 @@ const portfolio = [
 		images: ["ElvisCartoon/ElvisCartoonThumbnail.jpg"],
 		thumb: "ElvisCartoon/ElvisCartoonThumbnail.jpg",
 		outline: true,
-		magnifiable: false
+		magnifiable: false,
+		link: "https://youtu.be/-mrkhbhYLBM"
 	},
 	{
 		name: 'Sacrilicious Hopnipotent',

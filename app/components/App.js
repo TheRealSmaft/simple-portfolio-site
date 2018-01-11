@@ -10,14 +10,8 @@ import GalleryContainer from './elements/gallery/container';
 import Footer from './Footer';
 
 import styles from '../styles/_global.css';
-const background = require("../media/images/background.svg");
 
 class App extends React.Component {
-	componentWillMount() {
-		document.body.style.background = 'url("' + background + ')'
-		document.body.style.backgroundSize = "100% 100%";
-	}
-
 	render() {
 		return (
 			<main

@@ -44,6 +44,9 @@
   animation: piece-fade-in 500ms forwards;
   animation-delay: 500ms;
 }
+.portfolioPiece button {
+  margin-top: 12px;
+}
 .pieceImage {
   width: 100%;
   -webkit-touch-callout: none;

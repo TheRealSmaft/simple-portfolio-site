@@ -14,11 +14,12 @@ class Bio extends React.Component {
 		this.aboutTextArray = [
 			<p className = {styles.initialAboutParagraph}>Thank you for checking out my portfolio site! My broad skill set runs the gamut from programming and web development to graphic design and animation.</p>,
 			<p>I am available for freelance work for websites, 2D and 3D graphics, animation, print design, branding / logo design, and just about anything in between. I am also interested in permanent positions, if your offering!</p>,
-			
+			<p>Contact me at <a href="mailto:matt@mattbsmith.com?Subject=Whutup%20Sucka" target="_top">matt@mattbsmith.com</a>!</p>
 		];
 
 		this.buttonTextArray = [
 			"Read More",
+			"Contact Me",
 			"From the Top"
 		];
 	}

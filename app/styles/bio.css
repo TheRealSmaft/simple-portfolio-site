@@ -23,6 +23,9 @@
     font-size: .95em;
   }
 }
+.bio p {
+  min-height: 80px;
+}
 @media only screen and (max-width: 768px) {
   .bio p {
     margin-left: 20px;
