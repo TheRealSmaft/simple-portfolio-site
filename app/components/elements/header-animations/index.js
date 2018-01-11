@@ -165,7 +165,7 @@ class HeaderAnimations extends React.Component {
 					ref = "pop"
 					style = {{
 						position: 'absolute',
-						top: '0px',
+						top: '-2px',
 						left: '0px',
 						pointerEvents: 'none'
 					}}

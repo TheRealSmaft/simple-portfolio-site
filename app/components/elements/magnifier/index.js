@@ -33,6 +33,7 @@ class Magnifier extends React.Component {
 
 	startDragging(e) {
 		document.body.style.touchAction = 'none';
+		this.pm.style.overflow = "hidden";
 
 		if(e.dataTransfer) {
 			e.dataTransfer.setDragImage(this.emptyImage, 0, 0);
@@ -55,6 +56,8 @@ class Magnifier extends React.Component {
 
 	stopDragging(e) {
 		document.body.style.touchAction = 'auto';
+		this.pm.style.overflow = "auto";
+
 		let x;
 		let y;
 
