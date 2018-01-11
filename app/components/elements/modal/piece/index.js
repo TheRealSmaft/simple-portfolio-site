@@ -137,6 +137,13 @@ class Piece extends React.Component {
 				</h1>
 				{this.images}
 				{
+					p.magnifiable ?
+					<p>
+						Click on the image{p.images.length > 1 ? 's' : ''} to magnify.
+					</p>
+					: ''
+				}
+				{
 					p.link ?
 					<a
 						href = {p.link}
